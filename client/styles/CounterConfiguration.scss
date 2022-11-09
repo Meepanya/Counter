@@ -1,0 +1,22 @@
+@import "./variables/ColorVariables.scss";
+
+.CounterConfiguration {
+  background: $white-1;
+  width: 100%;
+
+  &__Wrap {
+    padding: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  &__Form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

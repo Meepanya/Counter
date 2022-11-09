@@ -1,0 +1,13 @@
+@import "./variables/ColorVariables.scss";
+
+.Input {
+  flex: auto;
+  border: 1px solid $primary-color;
+
+  color: $primary-color;
+  border-radius: 4px;
+  margin: 4px 8px 0px 0px;
+  height: 40px;
+
+  padding: 0px 4px 0px 8px;
+}

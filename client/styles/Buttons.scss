@@ -1,0 +1,62 @@
+@import "./global.scss";
+@import "./variables/ColorVariables.scss";
+@import "./variables/ButtonVariables.scss";
+
+.BtnWhiteOutline {
+  all: unset;
+  cursor: pointer;
+  position: relative;
+  max-width: 256px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 18px;
+  font-weight: 500;
+  color: $white-color;
+
+  width: 256px;
+  height: 58px;
+  max-height: 58px;
+  background-size: cover;
+  background-image: url($btn-white-outline-url);
+
+  &:hover {
+    color: $secondary-color;
+    background-image: url($btn-secondary-outline-url);
+  }
+}
+
+.BtnGreen {
+  all: unset;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+
+  font-size: 18px;
+  font-weight: 500;
+  color: $white-color;
+
+  min-width: 256px;
+  height: 58px;
+  max-height: 58px;
+  background-color: $green-color;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 0,
+    100% 60%,
+    90% 100%,
+    0 100%,
+    0 100%,
+    0 0
+  );
+
+  &:hover {
+    box-shadow: 0px 0px 32px rgba(25, 92, 42, 0.7) inset;
+  }
+}

@@ -1,0 +1,16 @@
+@import "./variables/ColorVariables.scss";
+
+.DivisionTable {
+  table-layout: fixed;
+
+  th,
+  td {
+    border: 1px solid $white-color;
+    text-align: center;
+    color: $white-color;
+
+    max-width: 180px;
+    width: 180px;
+    overflow: hidden;
+  }
+}

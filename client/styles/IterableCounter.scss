@@ -1,0 +1,15 @@
+@import "./variables/ColorVariables.scss";
+
+.IterableCounter {
+  width: 100%;
+  background: $primary-color;
+
+  &__Wrap {
+    padding: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
